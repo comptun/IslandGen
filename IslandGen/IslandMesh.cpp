@@ -1,18 +1,6 @@
 #include "IslandMesh.h"
 
-#include <vector>
-
-std::vector<float> vertices = {
-    -0.5f, -0.5f, 0.0f,
-     0.5f, -0.5f, 0.0f,
-     0.0f,  0.5f, 0.0f
-};
-
-std::vector<unsigned int> indices = {
-	0,1,2
-};
-
-IslandMesh::IslandMesh() {
+IslandMesh::IslandMesh(std::vector<float>& vertices, std::vector<unsigned int> indices) {
 
 	glGenVertexArrays(1, &m_VAO);
 	glBindVertexArray(m_VAO);

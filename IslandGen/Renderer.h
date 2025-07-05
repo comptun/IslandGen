@@ -1,13 +1,13 @@
 #pragma once
 
 #include "Shader.h"
-#include "IslandMesh.h"
+#include "Island.h"
 
 class Renderer
 {
 private:
 	Shader m_Shader;
-	IslandMesh m_Island;
+	Island m_Island;
 
 public:
 

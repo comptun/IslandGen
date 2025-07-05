@@ -120,6 +120,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)SDL\include\;$(SolutionDir)glad\include\;$(SolutionDir)glm\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,6 +133,8 @@
   <ItemGroup>
     <ClCompile Include="..\glad\src\glad.c" />
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Generation.cpp" />
+    <ClCompile Include="Island.cpp" />
     <ClCompile Include="IslandMesh.cpp" />
     <ClCompile Include="LuauRandom.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -140,6 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
+    <ClInclude Include="earcut.hpp" />
+    <ClInclude Include="Generation.h" />
+    <ClInclude Include="Island.h" />
     <ClInclude Include="IslandMesh.h" />
     <ClInclude Include="LuauRandom.h" />
     <ClInclude Include="Renderer.h" />

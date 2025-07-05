@@ -36,6 +36,12 @@
     <ClCompile Include="Renderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Generation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Island.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LuauRandom.h">
@@ -51,6 +57,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Generation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="earcut.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Island.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

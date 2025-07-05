@@ -2,6 +2,8 @@
 
 #include <glad/glad.h>
 
+#include <vector>
+
 class IslandMesh
 {
 private:
@@ -12,6 +14,6 @@ private:
 public:
 	void Draw();
 
-	IslandMesh();
+	IslandMesh(std::vector<float>& vertices, std::vector<unsigned int> indices);
 };
 
